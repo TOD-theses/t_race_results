@@ -1,0 +1,9 @@
+type,component,step,elapsed_ms
+step,mine,fetch,113842
+step,mine,skelcodes,26841
+step,mine,candidates,4252
+step,mine,filter,16051
+step,mine,save_candidates,59
+step,mine,stats,150589
+component,mine,,311728
+component,t_race,,311728

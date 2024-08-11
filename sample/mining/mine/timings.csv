@@ -1,0 +1,8 @@
+type,component,step,elapsed_ms
+step,mine,fetch,311068
+step,mine,candidates,6159
+step,mine,filter,16566
+step,mine,save_candidates,247
+step,mine,stats,168275
+component,mine,,502340
+component,t_race,,502340

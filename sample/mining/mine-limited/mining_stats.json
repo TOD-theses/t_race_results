@@ -1,0 +1,164 @@
+{
+  "accesses": {
+    "balance": 80245,
+    "code": 39435,
+    "nonce": 75625,
+    "storage": 147819
+  },
+  "state_diffs": {
+    "nonce": 15372,
+    "storage": 48427,
+    "balance": 43831,
+    "code": 175
+  },
+  "collisions": {
+    "balance": 1208,
+    "storage": 1622
+  },
+  "collisions_before_filters": {
+    "nonce": 25167,
+    "storage": 29030,
+    "code": 299,
+    "balance": 34791
+  },
+  "candidates_filters": {
+    "candidates": {
+      "before_filters": 56663,
+      "final": 2320,
+      "original_without_same_value": 63178557
+    },
+    "filtered": {
+      "block_window": 3479,
+      "block_producers": 13285,
+      "nonces": 16615,
+      "codes": 19,
+      "indirect_dependencies_quick": 3815,
+      "indirect_dependencies_recursive": 3215,
+      "same_sender": 6295,
+      "recipient_eth_transfer": 1813,
+      "limited_collisions_per_address": 5482,
+      "limited_collisions_per_code_hash": 210,
+      "limited_collisions_per_code_family": 115
+    }
+  },
+  "candidates": 2320,
+  "candidates_transactions_unique": 3721,
+  "transactions": 16799,
+  "collision_addresses_unique": 1320,
+  "samples": {
+    "candidates_transactions_frequent": [
+      [
+        "0x5dead2b939c0b7630c1e64086df67ca7dabcec2bfa355a3a46fae060cab836fa",
+        6
+      ],
+      [
+        "0xa34bc14a8f20ec6685af78b429e7ce3120f60e29cdc2a3c4c74e6afc789ad237",
+        6
+      ],
+      [
+        "0xc24110675e1a818c178fb799082406eca55acbbab382cfeec42cc3918e611b23",
+        5
+      ],
+      [
+        "0xf88428451424e2028e0056630d0ee2556f8d2c7fa49557a27d876996e2319f15",
+        5
+      ],
+      [
+        "0x349768aed1a125363e9cc4fe48d4845cf688f95f6655f188a032ab1033f98671",
+        5
+      ]
+    ],
+    "collision_addresses_frequent": [
+      [
+        "0x0000000000a39bb272e79075ade125fd351887ac",
+        10
+      ],
+      [
+        "0x0000000895cb182e6f983eb4d8b4e0aa0b31ae4c",
+        10
+      ],
+      [
+        "0x0000a26b00c1f0df003000390027140000faa719",
+        10
+      ],
+      [
+        "0x04fa0d235c4abf4bcf4787af4cf447de572ef828",
+        10
+      ],
+      [
+        "0x06450dee7fd2fb8e39061434babcfc05599a6fb8",
+        10
+      ]
+    ]
+  },
+  "frequencies": {
+    "candidates_transactions": [
+      [
+        6,
+        2
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        3,
+        118
+      ],
+      [
+        2,
+        634
+      ],
+      [
+        1,
+        2955
+      ]
+    ],
+    "collisions_addresses": [
+      [
+        10,
+        79
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        6,
+        19
+      ],
+      [
+        5,
+        32
+      ],
+      [
+        4,
+        45
+      ],
+      [
+        3,
+        58
+      ],
+      [
+        2,
+        117
+      ],
+      [
+        1,
+        939
+      ]
+    ]
+  }
+}
