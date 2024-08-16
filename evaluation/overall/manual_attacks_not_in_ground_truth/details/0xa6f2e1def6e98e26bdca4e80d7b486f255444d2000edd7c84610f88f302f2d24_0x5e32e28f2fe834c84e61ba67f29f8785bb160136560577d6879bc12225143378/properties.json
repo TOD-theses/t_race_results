@@ -1,0 +1,105 @@
+{
+    "tx_a": "0xa6f2e1def6e98e26bdca4e80d7b486f255444d2000edd7c84610f88f302f2d24",
+    "tx_b": "0x5e32e28f2fe834c84e61ba67f29f8785bb160136560577d6879bc12225143378",
+    "details": {
+        "tx_a": "0xa6f2e1def6e98e26bdca4e80d7b486f255444d2000edd7c84610f88f302f2d24",
+        "tx_b": "0x5e32e28f2fe834c84e61ba67f29f8785bb160136560577d6879bc12225143378",
+        "gain_and_loss": {
+            "accounts": {
+                "attacker_eoa": "a823ffc769162e7a152cbdaa383909b6d0d1d14f",
+                "attacker_bot": "36163f85add2349a973014c92afa410263311607",
+                "victim": "1f28c6fb3ea8ba23038c70a51d8986c5d1276a8d"
+            },
+            "properties": {
+                "attacker_gain_and_victim_loss": true,
+                "attacker_eoa_gain": true,
+                "attacker_eoa_loss": false,
+                "attacker_bot_gain": false,
+                "attacker_bot_loss": false,
+                "victim_gain": false,
+                "victim_loss": true
+            },
+            "witnesses": {
+                "a823ffc769162e7a152cbdaa383909b6d0d1d14f": {
+                    "ERC-20-b26631c6dda06ad89b93c71400d25692de89c068": {
+                        "type": "ERC-20",
+                        "currency_identifier": "b26631c6dda06ad89b93c71400d25692de89c068",
+                        "owner": "a823ffc769162e7a152cbdaa383909b6d0d1d14f",
+                        "change": 19999999999999999420,
+                        "location": {
+                            "address": "0xb26631c6dda06ad89b93c71400d25692de89c068",
+                            "pc": 3194
+                        }
+                    }
+                },
+                "36163f85add2349a973014c92afa410263311607": {
+                    "ETHER-Wei": {
+                        "type": "ETHER",
+                        "currency_identifier": "Wei",
+                        "owner": "36163f85add2349a973014c92afa410263311607",
+                        "change": 0,
+                        "location": {
+                            "address": "0x36163f85add2349a973014c92afa410263311607",
+                            "pc": 5203
+                        }
+                    }
+                },
+                "1f28c6fb3ea8ba23038c70a51d8986c5d1276a8d": {
+                    "ETHER-Wei": {
+                        "type": "ETHER",
+                        "currency_identifier": "Wei",
+                        "owner": "1f28c6fb3ea8ba23038c70a51d8986c5d1276a8d",
+                        "change": 0,
+                        "location": {
+                            "address": "0x36163f85add2349a973014c92afa410263311607",
+                            "pc": 5203
+                        }
+                    },
+                    "ERC-20-b26631c6dda06ad89b93c71400d25692de89c068": {
+                        "type": "ERC-20",
+                        "currency_identifier": "b26631c6dda06ad89b93c71400d25692de89c068",
+                        "owner": "1f28c6fb3ea8ba23038c70a51d8986c5d1276a8d",
+                        "change": -19999999999999999420,
+                        "location": {
+                            "address": "0xb26631c6dda06ad89b93c71400d25692de89c068",
+                            "pc": 3194
+                        }
+                    }
+                }
+            }
+        },
+        "securify_tx_a": {
+            "properties": {
+                "TOD_Transfer": false,
+                "TOD_Amount": false,
+                "TOD_Receiver": false
+            },
+            "witnesses": {
+                "TOD_Transfer": [],
+                "TOD_Amount": [],
+                "TOD_Receiver": []
+            }
+        },
+        "securify_tx_b": {
+            "properties": {
+                "TOD_Transfer": false,
+                "TOD_Amount": false,
+                "TOD_Receiver": false
+            },
+            "witnesses": {
+                "TOD_Transfer": [],
+                "TOD_Amount": [],
+                "TOD_Receiver": []
+            }
+        },
+        "erc20_approval": {
+            "properties": {
+                "approve_after_transfer": false
+            },
+            "witnesses": {
+                "transfer_approval_pairs": []
+            }
+        }
+    },
+    "error": null
+}

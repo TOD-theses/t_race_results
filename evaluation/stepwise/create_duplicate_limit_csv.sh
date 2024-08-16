@@ -16,4 +16,4 @@ echo "tx_a,tx_b" > removed_by_limit.csv
 grep -E 'limited' mine/tod_candidates_evaluation.csv | cut -d ',' -f 1,2 >> removed_by_limit.csv
 
 
-python3 ../../../scripts/compare_tods.py ../rq1-3_search.csv removed_by_limit.csv covered.csv covered_by_single_tx.csv covered_partially.csv not_covered.csv > comparison_duplicate_limit.csv
+python3 compare_tods.py ../rq1-3_search.csv removed_by_limit.csv covered.csv covered_by_single_tx.csv covered_partially.csv not_covered.csv > comparison_duplicate_limit.csv

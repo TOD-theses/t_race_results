@@ -1,0 +1,125 @@
+{
+    "tx_a": "0xd682b628b647fda1bde51cbae4e582006cf80519af2f4386f01de10a1ad899ba",
+    "tx_b": "0x116eed8f115d2c43170c707a27331d99f9e3c4e0ac4ec55b50fa92e6178eb0b9",
+    "details": {
+        "tx_a": "0xd682b628b647fda1bde51cbae4e582006cf80519af2f4386f01de10a1ad899ba",
+        "tx_b": "0x116eed8f115d2c43170c707a27331d99f9e3c4e0ac4ec55b50fa92e6178eb0b9",
+        "gain_and_loss": {
+            "accounts": {
+                "attacker_eoa": "3ea4e9d60c02e6c4687a24223eb7df87c42204ab",
+                "attacker_bot": "df7ebadb3ec9bb63e9639600ce9783ebd2fa193c",
+                "victim": "ef80d1b797ab9faf01daa46341d99effde776e24"
+            },
+            "properties": {
+                "attacker_gain_and_victim_loss": true,
+                "attacker_eoa_gain": false,
+                "attacker_eoa_loss": true,
+                "attacker_bot_gain": true,
+                "attacker_bot_loss": false,
+                "victim_gain": false,
+                "victim_loss": true
+            },
+            "witnesses": {
+                "3ea4e9d60c02e6c4687a24223eb7df87c42204ab": {
+                    "ERC-20-7ef1081ecc8b5b5b130656a41d4ce4f89dbbcc8c": {
+                        "type": "ERC-20",
+                        "currency_identifier": "7ef1081ecc8b5b5b130656a41d4ce4f89dbbcc8c",
+                        "owner": "3ea4e9d60c02e6c4687a24223eb7df87c42204ab",
+                        "change": -85474778939548588842,
+                        "location": {
+                            "address": "0x7ef1081ecc8b5b5b130656a41d4ce4f89dbbcc8c",
+                            "pc": 6203
+                        }
+                    }
+                },
+                "df7ebadb3ec9bb63e9639600ce9783ebd2fa193c": {
+                    "ETHER-Wei": {
+                        "type": "ETHER",
+                        "currency_identifier": "Wei",
+                        "owner": "df7ebadb3ec9bb63e9639600ce9783ebd2fa193c",
+                        "change": 0,
+                        "location": {
+                            "address": "0xdf7ebadb3ec9bb63e9639600ce9783ebd2fa193c",
+                            "pc": 9836
+                        }
+                    },
+                    "ERC-20-7ef1081ecc8b5b5b130656a41d4ce4f89dbbcc8c": {
+                        "type": "ERC-20",
+                        "currency_identifier": "7ef1081ecc8b5b5b130656a41d4ce4f89dbbcc8c",
+                        "owner": "df7ebadb3ec9bb63e9639600ce9783ebd2fa193c",
+                        "change": 85757790000000000000,
+                        "location": {
+                            "address": "0x7ef1081ecc8b5b5b130656a41d4ce4f89dbbcc8c",
+                            "pc": 6203
+                        }
+                    },
+                    "ERC-20-df7ebadb3ec9bb63e9639600ce9783ebd2fa193c": {
+                        "type": "ERC-20",
+                        "currency_identifier": "df7ebadb3ec9bb63e9639600ce9783ebd2fa193c",
+                        "owner": "df7ebadb3ec9bb63e9639600ce9783ebd2fa193c",
+                        "change": 0,
+                        "location": {
+                            "address": "0xdf7ebadb3ec9bb63e9639600ce9783ebd2fa193c",
+                            "pc": 9192
+                        }
+                    }
+                },
+                "ef80d1b797ab9faf01daa46341d99effde776e24": {
+                    "ERC-20-df7ebadb3ec9bb63e9639600ce9783ebd2fa193c": {
+                        "type": "ERC-20",
+                        "currency_identifier": "df7ebadb3ec9bb63e9639600ce9783ebd2fa193c",
+                        "owner": "ef80d1b797ab9faf01daa46341d99effde776e24",
+                        "change": 0,
+                        "location": {
+                            "address": "0xdf7ebadb3ec9bb63e9639600ce9783ebd2fa193c",
+                            "pc": 7860
+                        }
+                    },
+                    "ERC-20-7ef1081ecc8b5b5b130656a41d4ce4f89dbbcc8c": {
+                        "type": "ERC-20",
+                        "currency_identifier": "7ef1081ecc8b5b5b130656a41d4ce4f89dbbcc8c",
+                        "owner": "ef80d1b797ab9faf01daa46341d99effde776e24",
+                        "change": -572561149120,
+                        "location": {
+                            "address": "0x7ef1081ecc8b5b5b130656a41d4ce4f89dbbcc8c",
+                            "pc": 6203
+                        }
+                    }
+                }
+            }
+        },
+        "securify_tx_a": {
+            "properties": {
+                "TOD_Transfer": false,
+                "TOD_Amount": false,
+                "TOD_Receiver": false
+            },
+            "witnesses": {
+                "TOD_Transfer": [],
+                "TOD_Amount": [],
+                "TOD_Receiver": []
+            }
+        },
+        "securify_tx_b": {
+            "properties": {
+                "TOD_Transfer": false,
+                "TOD_Amount": false,
+                "TOD_Receiver": false
+            },
+            "witnesses": {
+                "TOD_Transfer": [],
+                "TOD_Amount": [],
+                "TOD_Receiver": []
+            }
+        },
+        "erc20_approval": {
+            "properties": {
+                "approve_after_transfer": false
+            },
+            "witnesses": {
+                "transfer_approval_pairs": []
+            }
+        }
+    },
+    "error": null
+}

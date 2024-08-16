@@ -9,4 +9,4 @@ grep '"approximately TOD": true' check/tod_check_details.jsonl | sed -r 's/^[^0]
 echo "tx_a,tx_b" > property_gain_and_loss.csv
 grep -E '(0x[a-f0-9]+,0x[a-f0-9]+),True' check/tod_properties.csv | cut -d ',' -f 1,2 >> property_gain_and_loss.csv
 
-python3 ../../../scripts/compare_tods.py ../rq1-3_search.csv tod_overall.csv tod_approximation.csv property_gain_and_loss.csv > comparison_check.csv
+python3 compare_tods.py ../rq1-3_search.csv tod_overall.csv tod_approximation.csv property_gain_and_loss.csv > comparison_check.csv
