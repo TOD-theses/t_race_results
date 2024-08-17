@@ -1,0 +1,220 @@
+{
+    "tx_a": "0xf2df7aad9800a36709662a60e0b7440a95b73fc9acbb417f2a84519ea9a4d284",
+    "tx_b": "0x064607724e6cc7bf96d76d3b3d595127d80a319079d14720534a272dc678445b",
+    "details": {
+        "tx_a": "0xf2df7aad9800a36709662a60e0b7440a95b73fc9acbb417f2a84519ea9a4d284",
+        "tx_b": "0x064607724e6cc7bf96d76d3b3d595127d80a319079d14720534a272dc678445b",
+        "gain_and_loss": {
+            "accounts": {
+                "attacker_eoa": "a1d8d972560c2f8144af871db508f0b0b10a3fbf",
+                "attacker_bot": "d98f75b1a3261dab9eed4956c93f33749027a964",
+                "victim": "de240e38f621a20e3900acdb929560cb3d91c9e0"
+            },
+            "properties": {
+                "attacker_gain_and_victim_loss": false,
+                "attacker_eoa_gain": false,
+                "attacker_eoa_loss": false,
+                "attacker_bot_gain": false,
+                "attacker_bot_loss": false,
+                "victim_gain": true,
+                "victim_loss": true
+            },
+            "witnesses": {
+                "a1d8d972560c2f8144af871db508f0b0b10a3fbf": {
+                    "ERC-20-d98f75b1a3261dab9eed4956c93f33749027a964": {
+                        "type": "ERC-20",
+                        "currency_identifier": "d98f75b1a3261dab9eed4956c93f33749027a964",
+                        "owner": "a1d8d972560c2f8144af871db508f0b0b10a3fbf",
+                        "change": 0,
+                        "location": {
+                            "address": "0xd98f75b1a3261dab9eed4956c93f33749027a964",
+                            "pc": 23866
+                        }
+                    }
+                },
+                "d98f75b1a3261dab9eed4956c93f33749027a964": {
+                    "ETHER-Wei": {
+                        "type": "ETHER",
+                        "currency_identifier": "Wei",
+                        "owner": "d98f75b1a3261dab9eed4956c93f33749027a964",
+                        "change": 0,
+                        "location": {
+                            "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                            "pc": 17090
+                        }
+                    }
+                },
+                "de240e38f621a20e3900acdb929560cb3d91c9e0": {
+                    "ERC-20-d98f75b1a3261dab9eed4956c93f33749027a964": {
+                        "type": "ERC-20",
+                        "currency_identifier": "d98f75b1a3261dab9eed4956c93f33749027a964",
+                        "owner": "de240e38f621a20e3900acdb929560cb3d91c9e0",
+                        "change": -2036300,
+                        "location": {
+                            "address": "0xd98f75b1a3261dab9eed4956c93f33749027a964",
+                            "pc": 23866
+                        }
+                    },
+                    "ETHER-Wei": {
+                        "type": "ETHER",
+                        "currency_identifier": "Wei",
+                        "owner": "de240e38f621a20e3900acdb929560cb3d91c9e0",
+                        "change": 1000132866506181022,
+                        "location": {
+                            "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                            "pc": 15784
+                        }
+                    }
+                }
+            }
+        },
+        "securify_tx_a": {
+            "properties": {
+                "TOD_Transfer": false,
+                "TOD_Amount": false,
+                "TOD_Receiver": false
+            },
+            "witnesses": {
+                "TOD_Transfer": [],
+                "TOD_Amount": [],
+                "TOD_Receiver": []
+            }
+        },
+        "securify_tx_b": {
+            "properties": {
+                "TOD_Transfer": true,
+                "TOD_Amount": false,
+                "TOD_Receiver": false
+            },
+            "witnesses": {
+                "TOD_Transfer": [
+                    [
+                        [
+                            "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                            15784
+                        ],
+                        [
+                            {
+                                "sender": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                                "recipient": "de240e38f621a20e3900acdb929560cb3d91c9e0",
+                                "amount": 1000132866506181022,
+                                "location": {
+                                    "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                                    "pc": 15784
+                                }
+                            }
+                        ],
+                        []
+                    ],
+                    [
+                        [
+                            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                            2724
+                        ],
+                        [
+                            {
+                                "sender": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "recipient": "7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                                "amount": 1000132866506181022,
+                                "location": {
+                                    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                    "pc": 2724
+                                }
+                            }
+                        ],
+                        []
+                    ]
+                ],
+                "TOD_Amount": [
+                    [
+                        [
+                            "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                            15784,
+                            1000132866506181022
+                        ],
+                        [
+                            {
+                                "sender": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                                "recipient": "de240e38f621a20e3900acdb929560cb3d91c9e0",
+                                "amount": 1000132866506181022,
+                                "location": {
+                                    "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                                    "pc": 15784
+                                }
+                            }
+                        ],
+                        []
+                    ],
+                    [
+                        [
+                            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                            2724,
+                            1000132866506181022
+                        ],
+                        [
+                            {
+                                "sender": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "recipient": "7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                                "amount": 1000132866506181022,
+                                "location": {
+                                    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                    "pc": 2724
+                                }
+                            }
+                        ],
+                        []
+                    ]
+                ],
+                "TOD_Receiver": [
+                    [
+                        [
+                            "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                            15784,
+                            "de240e38f621a20e3900acdb929560cb3d91c9e0"
+                        ],
+                        [
+                            {
+                                "sender": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                                "recipient": "de240e38f621a20e3900acdb929560cb3d91c9e0",
+                                "amount": 1000132866506181022,
+                                "location": {
+                                    "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                                    "pc": 15784
+                                }
+                            }
+                        ],
+                        []
+                    ],
+                    [
+                        [
+                            "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                            2724,
+                            "7a250d5630b4cf539739df2c5dacb4c659f2488d"
+                        ],
+                        [
+                            {
+                                "sender": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "recipient": "7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                                "amount": 1000132866506181022,
+                                "location": {
+                                    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                    "pc": 2724
+                                }
+                            }
+                        ],
+                        []
+                    ]
+                ]
+            }
+        },
+        "erc20_approval": {
+            "properties": {
+                "approve_after_transfer": false
+            },
+            "witnesses": {
+                "transfer_approval_pairs": []
+            }
+        }
+    },
+    "error": null
+}
