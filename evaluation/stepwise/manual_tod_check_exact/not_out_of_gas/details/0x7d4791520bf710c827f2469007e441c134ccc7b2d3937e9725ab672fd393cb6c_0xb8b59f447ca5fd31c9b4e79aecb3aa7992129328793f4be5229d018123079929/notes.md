@@ -1,0 +1,44 @@
+# TOD checker output
+
+Transactions:
+- T_A: [0x7d4791520bf710c827f2469007e441c134ccc7b2d3937e9725ab672fd393cb6c](https://etherscan.io/tx/0x7d4791520bf710c827f2469007e441c134ccc7b2d3937e9725ab672fd393cb6c)
+- T_B: [0xb8b59f447ca5fd31c9b4e79aecb3aa7992129328793f4be5229d018123079929](https://etherscan.io/tx/0xb8b59f447ca5fd31c9b4e79aecb3aa7992129328793f4be5229d018123079929)
+
+# Traces differ?
+
+T_A differs
+T_B differs
+
+# Reverted call contexts?
+
+No
+
+# Write same storage key according to Etherscan?
+
+Yes:
+
+At 0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094, slot 0x8
+At 0x7d85e23014f84e6e21d5663acd8751bef3562352, slot 0xcc42399ef2c0fbd0cad7e578b2b6a965734b35ba5cf8b68496aab8f7ba23b3c8
+At 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2, slot 0xfe769e4e58f526b018f4e95bb1b9978a318e21a1c2f2bdbef629edd38a6f9b04
+
+# Other notes
+
+TOD when using Reth and removing the `_remove_gas_cost_changes` calls in the TOD checker.
+
+Using Erigon, individual transactions differ, but overall no TOD:
+
+```
+Tx B: 5
+<changes differ: balance@0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 normal: -0x6e485a3e61b61bab | reverse: -0x6f2a5d9eea45b7c2>
+<changes differ: storage@0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094@0x0000000000000000000000000000000000000000000000000000000000000008 normal: -0x6e485a3e61b61baafffffff961ef21899892f8000000 | reverse: +0x18ffffffffffff90d5a26115ba483e000000069e10de76676d08000000>
+<changes differ: storage@0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094@0x0000000000000000000000000000000000000000000000000000000000000009 normal: +0x0 | reverse: +0x1a6eb2a5e53394ca004edcde6>
+<changes differ: storage@0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094@0x000000000000000000000000000000000000000000000000000000000000000a normal: +0x0 | reverse: +0x17a52c908c88893cea04ce654c342d12faa>
+<changes differ: storage@0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2@0xfe769e4e58f526b018f4e95bb1b9978a318e21a1c2f2bdbef629edd38a6f9b04 normal: -0x6e485a3e61b61bab | reverse: -0x6f2a5d9eea45b7c2>
+
+Tx A: 5
+<changes differ: balance@0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 normal: -0x6f2a5d9eea45b7c2 | reverse: -0x6e485a3e61b61bab>
+<changes differ: storage@0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094@0x0000000000000000000000000000000000000000000000000000000000000008 normal: +0x18ffffffffffff90d5a26115ba483e000000069e10de76676d08000000 | reverse: -0x6e485a3e61b61baafffffff961ef21899892f8000000>
+<changes differ: storage@0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094@0x0000000000000000000000000000000000000000000000000000000000000009 normal: +0x1a6eb2a5e53394ca004edcde6 | reverse: +0x0>
+<changes differ: storage@0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094@0x000000000000000000000000000000000000000000000000000000000000000a normal: +0x17a52c908c88893cea04ce654c342d12faa | reverse: +0x0>
+<changes differ: storage@0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2@0xfe769e4e58f526b018f4e95bb1b9978a318e21a1c2f2bdbef629edd38a6f9b04 normal: -0x6f2a5d9eea45b7c2 | reverse: -0x6e485a3e61b61bab>
+```

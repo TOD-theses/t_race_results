@@ -1,0 +1,6 @@
+# Out of gas comparison with Etherscan
+
+Reported as TOD by Reth, but neither by Erigon nor Geth:
+
+- 0x592f89a7a404a734963965e3f63f5365e8fe24ec4fbd596d9321a4b0579283f6 0x860c1d1ff65bb2ef17bbe591eb8eab93f5026267bbc83b595457e12d220b8fff
+- 0xac0d21c929aff90a0edc1e8f6253d0e8a2f698959b35e8aa84ebf9da6ca31cbf 0xa7cd2801eaa0f6da56ea2881f2bfcc63d40c945e0d1aca44d052a6969966e0e4
