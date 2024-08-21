@@ -9,8 +9,6 @@ Relevant files are:
 - tod_candidates.csv: a CSV of the remaining TOD candidates
 - check_comparison.csv: a CSV containing the comparison between approximation and exact TOD
 
-The file [check_comparison](./sample/check/check_comparison.csv) contains t
-
 These were run with an older version of t_race, thus the output format is slightly different than for the rest of the dataset, however similar results can be obtained with these commands:
 
 - `t_race mine --blocks 19830547-19830646 --window-size 25`
@@ -28,6 +26,7 @@ Relevant files/folders:
 
 For manual evaluations we use following folders:
 - details/{tx_a}_{tx_b}/notes.md: for manual evaluations, this contains the notes of analyzing an attack
+- details/{tx_a}_{tx_b}/traces.tar.gz: compressed traces of the normal and reverse scenarios
 
 
 ### Overall
